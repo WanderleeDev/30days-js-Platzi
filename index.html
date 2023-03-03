@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/css/main.css">
+  <title>30 días JS</title>
+</head>
+<body class="grid relative bg-slate-200 min-h-screen w-full">
+  <header>
+    <nav class="bg-yellow-400 top-0 h-20 flex items-center justify-between p-4 border-b-4 border-double border-b-yellow-600 md:bg-red-400">
+      <p>Hello JS</p>
+      <ul id="navbarList" class="grid place-content-center absolute inset-0 top-20 bg-yellow-400 hover:bg-yellow-400/50 backdrop-blur-sm opacity-0 duration-500 pointer-events-none">
+        <li class="text-sm font-bold py-4 px-8 text-center uppercase"><a class="hover:text-slate-600 duration-200" target="_blank" href="#">Home</a></li>
+        <li class="text-sm font-bold py-4 px-8 text-center uppercase"><a class="hover:text-slate-600 duration-200" target="_blank" href="#">Days</a></li>
+        <li class="text-sm font-bold py-4 px-8 text-center uppercase"><a class="hover:text-slate-600 duration-200" target="_blank" href="#">About me</a></li>
+        <li class="mt-10">
+          <ul class="flex justify-evenly m-2 gap-4">
+            <li class="w-8 h-8 p-1 rounded-sm hover:border-black hover:border-2">
+              <a target="_blank" href="https://github.com/WanderleeDev"><img class="w-5" src="https://www.dropbox.com/s/zuk19my5twntug3/github.svg?raw=1" alt="social icon">
+              </a>
+            </li>
+            <li class="w-8 h-8 p-1 rounded-sm hover:border-black hover:border-2">
+              <a target="_blank" href="https://www.linkedin.com/in/wanderlee-max/"><img class="w-5" src="https://www.dropbox.com/s/xb806hyl1kjy4cj/linkedin.svg?raw=1" alt="social icon">
+              </a>
+            </li>
+            <li class="w-8 h-8 p-1 rounded-sm hover:border-black hover:border-2">
+              <a target="_blank" href="#"><img class="w-5" src="https://www.dropbox.com/s/q1e3z84vbcnbqjx/whatsapp.svg?raw=1" alt="social icon">
+              </a>
+            </li>
+            <li class="w-8 h-8 p-1 rounded-sm hover:border-black hover:border-2">
+              <a target="_blank" href="https://campsite.bio/starbreakv"><img class="w-5" src="https://www.dropbox.com/s/2wseav48wd6xy58/work-tools.svg?raw=1" alt="social icon">
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <button id="menuBtn" class="w-6 h-6 hover:rounded-[50%]">
+        <svg id="iconMenuOpen" class="h-4 w-4 text-black block"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+        <svg id="iconMenuClose" class="h-4 w-4 text-black hidden"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <line x1="18" y1="6" x2="6" y2="18" />  <line x1="6" y1="6" x2="18" y2="18" /></svg>        
+      </button>
+    </nav>
+    <h1 class="text-4xl p-4">30 Dias Javascript</h1>
+  </header>
+</body>
+<script src="./src/assets/js/main.js"></script>
+</html>
